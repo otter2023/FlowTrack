@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:traffic;MODE=PostgreSQL;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate.jdbc.time_zone: Asia/Seoul
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+traffic:
+  base-url: http://openapi.seoul.go.kr:8088
+  api-key: ${TOPIS_API_KEY}
