@@ -1,9 +1,9 @@
-package com.example.FlowTrack.road.service;
+package com.example.flowtrack.seoulroad.service;
 
-import com.example.FlowTrack.road.config.TopisProps;
-import com.example.FlowTrack.road.dto.LiveRoadResponse;
-import com.example.FlowTrack.road.dto.RoadInfoDto;
-import com.example.FlowTrack.road.dto.RoadMetaResponse;
+import com.example.flowtrack.seoulroad.config.TopisProps;
+import com.example.flowtrack.seoulroad.dto.LiveRoadResponse;
+import com.example.flowtrack.seoulroad.dto.RoadInfoDto;
+import com.example.flowtrack.seoulroad.dto.RoadMetaResponse;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
-package com.example.FlowTrack.road.service;
+package com.example.flowtrack.seoulroad.service;
 
-import com.example.FlowTrack.road.dto.RoadInfoDto;
-import com.example.FlowTrack.road.ingest.ExcelReader;
+import com.example.flowtrack.seoulroad.dto.RoadInfoDto;
+import com.example.flowtrack.seoulroad.ingest.ExcelReader;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

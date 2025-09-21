@@ -1,4 +1,4 @@
-package com.example.FlowTrack.road.config;
+package com.example.flowtrack.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

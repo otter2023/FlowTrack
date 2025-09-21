@@ -1,4 +1,4 @@
-package com.example.FlowTrack.road.dto;
+package com.example.flowtrack.seoulroad.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

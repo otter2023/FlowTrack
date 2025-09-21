@@ -1,4 +1,4 @@
-package com.example.FlowTrack.road.dto;
+package com.example.flowtrack.seoulroad.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;

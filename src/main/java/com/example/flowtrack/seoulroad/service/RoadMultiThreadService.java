@@ -1,16 +1,12 @@
-package com.example.FlowTrack.road.service;
+package com.example.flowtrack.seoulroad.service;
 
-import com.example.FlowTrack.road.dto.RoadInfoDto;
+import com.example.flowtrack.seoulroad.dto.RoadInfoDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.io.FileWriter;
 import java.io.PrintWriter;
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.ZoneId;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -39,7 +35,6 @@ public class RoadMultiThreadService {
                     try {
                         RoadInfoDto info = roadService.getRoadInfo(linkId);
                         if (info != null) {
-                            // ✅ KST 시간 포맷
 
                             String line = String.join(",",
                                     nz(info.getLinkId()),
