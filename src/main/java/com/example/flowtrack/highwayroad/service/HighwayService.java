@@ -1,6 +1,6 @@
 package com.example.flowtrack.highwayroad.service;
 
-import com.example.flowtrack.highwayroad.config.ExProps;
+import com.example.flowtrack.common.config.ExProps;
 import com.example.flowtrack.highwayroad.dto.HighwayResponse;
 import com.example.flowtrack.highwayroad.dto.HighwayInfoDto;
 import com.fasterxml.jackson.databind.ObjectMapper;

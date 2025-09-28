@@ -1,20 +1,19 @@
 package com.example.flowtrack.seoulroad.controller;
 
-import com.example.flowtrack.seoulroad.service.RoadFileProcessor;
+import com.example.flowtrack.seoulroad.service.RoadDataProcessor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/traffic")
+@RequestMapping("/seoul-traffic")
 @RequiredArgsConstructor
 public class RoadController {
 
-    private final RoadFileProcessor roadFileProcessor;
+    private final RoadDataProcessor roadDataProcessor;
 
     @GetMapping()
     public String exportTraffic() throws Exception {
-        // 저장만 하고 결과는 리턴하지 않음
-        roadFileProcessor.processExcel("linkIdInfo_2503.xlsx");
+        roadDataProcessor.processExcel("link_id_info_2503.xlsx");
         return "CSV 저장 완료";
     }
 }

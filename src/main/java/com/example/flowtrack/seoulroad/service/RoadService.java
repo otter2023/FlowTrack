@@ -1,6 +1,6 @@
 package com.example.flowtrack.seoulroad.service;
 
-import com.example.flowtrack.seoulroad.config.TopisProps;
+import com.example.flowtrack.common.config.SeoulProps;
 import com.example.flowtrack.seoulroad.dto.LiveRoadResponse;
 import com.example.flowtrack.seoulroad.dto.RoadInfoDto;
 import com.example.flowtrack.seoulroad.dto.RoadMetaResponse;
@@ -18,7 +18,7 @@ import java.nio.charset.StandardCharsets;
 @RequiredArgsConstructor
 public class RoadService {
 
-    private final TopisProps topisProps;
+    private final SeoulProps seoulProps;
     private final RestClient restClient;
     private final XmlMapper xmlMapper = new XmlMapper();
 
@@ -53,8 +53,8 @@ public class RoadService {
     }
 
     private LiveRoadResponse fetchLiveRoad(String linkId) throws Exception {
-        String url = UriComponentsBuilder.fromHttpUrl(topisProps.getBaseUrl())
-                .pathSegment(topisProps.getApiKey(), "xml", "TrafficInfo", String.valueOf(startIndex), String.valueOf(endIndex), linkId)
+        String url = UriComponentsBuilder.fromHttpUrl(seoulProps.getBaseUrl())
+                .pathSegment(seoulProps.getApiKey(), "xml", "TrafficInfo", String.valueOf(startIndex), String.valueOf(endIndex), linkId)
                 .toUriString();
 
         String xml = restClient.get().uri(url).retrieve().body(String.class);
@@ -69,8 +69,8 @@ public class RoadService {
     }
 
     private RoadMetaResponse fetchRoadMeta(String linkId) throws Exception {
-        String url = UriComponentsBuilder.fromHttpUrl(topisProps.getBaseUrl())
-                .pathSegment(topisProps.getApiKey(), "xml", "LinkInfo", String.valueOf(startIndex), String.valueOf(endIndex), linkId)
+        String url = UriComponentsBuilder.fromHttpUrl(seoulProps.getBaseUrl())
+                .pathSegment(seoulProps.getApiKey(), "xml", "LinkInfo", String.valueOf(startIndex), String.valueOf(endIndex), linkId)
                 .toUriString();
 
         String xml = restClient.get().uri(url).retrieve().body(String.class);
