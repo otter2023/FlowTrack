@@ -16,6 +16,10 @@ spring:
       enabled: true
       path: /h2-console
 
-traffic:
+seoul:
   base-url: http://openapi.seoul.go.kr:8088
   api-key: ${TOPIS_API_KEY}
+
+ex:
+  base-url: https://data.ex.co.kr/openapi/
+  api-key: 7730526404

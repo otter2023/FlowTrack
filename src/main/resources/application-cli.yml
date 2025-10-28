@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+
+seoul:
+  base-url: http://openapi.seoul.go.kr:8088
+  api-key: ${TOPIS_API_KEY}
+
+ex:
+  base-url: https://data.ex.co.kr/openapi/
+  api-key: 7730526404
