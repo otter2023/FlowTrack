@@ -814,3 +814,9 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251202,0436,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,46,21,20,142,3,S
 
 # saved_count=1, saved_at=2025-12-01 19:38:01
+
+20251202,0452,1000,수도권제1순환선,1000CZS280,송내IC-중동IC,1000VDS04800,41,40,20,179,2,S
+20251202,0452,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,54,23,31,126,3,S
+20251202,0452,4001,인천김포선,4001CZE110,남청라JC-북청라IC,4001VDE01800,5,31,1,45,3,E
+
+# saved_count=3, saved_at=2025-12-01 19:52:51
