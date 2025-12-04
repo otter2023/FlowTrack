@@ -7363,3 +7363,10 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 
 
 # saved_count=0, saved_at=2025-12-04 17:38:09
+
+20251205,0253,0010,경부선,0010CZE300,회덕JC-상서하이패스IC,0010VDE21600,7,32,9,217,3,E
+20251205,0253,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,46,13,22,226,3,S
+20251205,0253,5510,중앙선지선,5510CZE010,대동JC-물금IC,5510VDE00400,26,39,14,31,3,E
+20251205,0253,5510,중앙선지선,5510CZE010,대동JC-물금IC,5510VDE00401,26,39,14,63,3,E
+
+# saved_count=4, saved_at=2025-12-04 17:54:18
