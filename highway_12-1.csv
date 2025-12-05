@@ -10184,3 +10184,9 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251205,2258,0175,익산평택선,0175CZE030,청양IC-예산예당호Hi,0175VDE01500,8,40,26,50,2,E
 
 # saved_count=3, saved_at=2025-12-05 13:59:19
+
+20251205,2330,0010,경부선,0010CZS290,회덕JC-대전IC,0010VDS21200,2,39,1,82,3,S
+20251205,2330,0150,서해안선,0150CZS140,군산IC-동군산IC,0150VDS12200,7,17,1,279,3,S
+20251205,2330,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,20,40,11,73,2,S
+
+# saved_count=3, saved_at=2025-12-05 14:32:55
