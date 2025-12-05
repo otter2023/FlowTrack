@@ -10229,3 +10229,8 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251206,0232,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,49,14,18,212,3,S
 
 # saved_count=4, saved_at=2025-12-05 17:34:01
+
+20251206,0248,1000,수도권제1순환선,1000CZS090,구리TG-토평IC,1000VDS02800,6,33,5,51,3,S
+20251206,0248,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,50,11,20,262,3,S
+
+# saved_count=2, saved_at=2025-12-05 17:51:08
