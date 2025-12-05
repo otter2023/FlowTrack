@@ -10297,3 +10297,8 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251206,0642,4001,인천김포선,4001CZE110,남청라JC-북청라IC,4001VDE01800,18,40,2,35,2,E
 
 # saved_count=4, saved_at=2025-12-05 21:43:54
+
+20251206,0658,0450,중부내륙선,0450CZS190,괴산IC-연풍IC,0450VDS16607,6,36,1,49,3,S
+20251206,0658,0500,영동선,0500CZS190,여주IC-여주JC,0500VDS08200,12,34,32,130,3,S
+
+# saved_count=2, saved_at=2025-12-05 21:59:20
