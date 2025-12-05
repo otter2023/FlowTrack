@@ -10251,3 +10251,8 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 
 
 # saved_count=0, saved_at=2025-12-05 19:01:18
+
+20251206,0424,0010,경부선,0010CZS357,목천IC-옥산JC,0010VDS24800,21,40,41,157,2,S
+20251206,0424,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,36,13,20,218,3,S
+
+# saved_count=2, saved_at=2025-12-05 19:26:31
