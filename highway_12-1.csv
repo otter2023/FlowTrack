@@ -14459,3 +14459,7 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251208,0352,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,42,21,16,137,3,S
 
 # saved_count=1, saved_at=2025-12-07 18:54:27
+
+20251208,0420,4000,봉담동탄선,4000CZS010,북오산IC-서오산JC,4000VDS00004,37,18,15,157,3,S
+
+# saved_count=1, saved_at=2025-12-07 19:21:49
