@@ -16020,3 +16020,8 @@ stdDate,stdHour,routeNo,routeName,conzoneId,conzoneName,vdsId,trafficAmout,speed
 20251209,1236,4001,인천김포선,4001CZS100,남청라JC-시점,4001VDS00200,18,39,9,117,3,S
 
 # saved_count=6, saved_at=2025-12-09 03:38:12
+
+20251209,1305,0010,경부선,0010CZE400,안성JC-남사진위IC,0010VDE28400,67,27,2,128,3,E
+20251209,1305,0010,경부선,0010CZE400,안성JC-남사진위IC,0010VDE28700,67,37,1,205,3,E
+
+# saved_count=2, saved_at=2025-12-09 04:06:35
